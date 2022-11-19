@@ -4,7 +4,7 @@ metadata:
   name: springapp
   namespace: test-ns
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: springapp
