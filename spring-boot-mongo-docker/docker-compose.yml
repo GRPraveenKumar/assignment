@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  springapp:
+    image: grpraveenkumar/spring-boot-mongo:1
+    environment:
+    - MONGO_DB_HOSTNAME=mongodb
+    - MONGO_DB_USERNAME=praveen
+    - MONGO_DB_PASSWORD=kumar123
+    ports:
+      - 8080:8080
+    depends_on:
+      - mongodb
+    networks:
+    - springappbridge
+  mongodb:
+    image: mongo
+    environment:
+    - MONGO_INITDB_ROOT_USERNAME=praveen
+    - MONGO_INITDB_ROOT_PASSWORD=kumar123
+    volumes:
+      - mongovol:/data/db
+    networks:
+    - springappbridge
+volumes:
+  mongovol:
+    driver: local
+networks:
+  springappbridge:
+    driver: bridge
