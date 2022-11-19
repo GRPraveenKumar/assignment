@@ -1,4 +1,4 @@
-## link to check the application
+## Link to check the application
 
 ```link
 
