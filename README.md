@@ -8,7 +8,7 @@ http://65.2.125.88:8080/
 
 # Build Project Using multi stage docker file
 
-Used Alpine as base image and installed mvn and jave using multi stage docker file. spring boot has embedded tomcat.so it runs on port 8080. 
+Used Alpine as base image and installed maven and java using multi stage docker file. spring boot has embedded tomcat.so it runs on port 8080. 
 
 ## Create Docker Image
 
