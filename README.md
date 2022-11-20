@@ -28,7 +28,7 @@ docker-compose up -d
 ```
 
 ## Summary
-#Apologies for not doing it on local machine. I tried to do the assignment with local machine due to my personal laptop issue im not able to do it with local machine and not able to install minikube. i have attached docker-compose file to deploy springapp with mongoDB and yaml file to deploy application with HPA in k8s. please have a look.Thank you for the oppurtunity
+#Apologies for not doing it on local machine. I tried to do the assignment with local machine due to my personal laptop issue im not able to do it with local machine and not able to install minikube. i have attached docker-compose file to deploy springapp with mongoDB and Manifest file to deploy application with HPA in k8s. please have a look.Thank you for the opportunity.
 
 ```clone
 https://github.com/GRPraveenKumar/assignment.git
